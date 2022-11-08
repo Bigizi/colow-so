@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.crd-container{
+    display: flex;
+    width: 1060px;
+    height: 700px;
+    background-color: rgb(224, 222, 222);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 130px;
+    border-radius: 15px;
+}
+#ask-img{
+    margin-top: 60px;
+}
+#lnk-c{
+    color: blue;
+}
+.switch {
+    width: 50px;
+    height: 17px;
+    position: relative;
+    display: inline-block;
+}
+.switch input {
+    display: none;
+}
+.switch .slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+    background-color: #e7ecf1;
+    border-radius: 30px !important;
+    border: 0;
+    padding: 0;
+    display: block;
+    margin: 12px 10px;
+    min-height: 11px;
+}
+.switch .slider:before {
+    position: absolute;
+    background-color: #aaa;
+    height: 15px;
+    width: 15px;
+    content: "";
+    left: 0px;
+    bottom: -2px;
+    border-radius: 50%;
+    transition: ease-in-out .5s;
+}
+.switch .slider:after {
+    content: "";
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 70%;
+    transition: all .5s;
+    font-size: 10px;
+    font-family: Verdana,sans-serif;
+}
+
+.switch input:checked + .slider:after {
+    transition: all .5s;
+    left: 30%;
+    content: "";
+}
+
+.switch input:checked + .slider {
+    background-color: #d3d6d9;
+}
+.switch input:checked + .slider:before {
+    transform: translateX(15px);
+    background-color: #26a2ac;
+}
+#crd-btn{
+    width: 200px;
+    height: 36px;
+    border-radius: 15px;
+    background-color: #4E4B7B;
+    color: #fff;
+    border-style: none;
+    margin-left: 1%;
+    text-transform: uppercase;
+}
+
+#crd-p{
+    margin-left: 8%;
+}
+.crd-right{
+    margin-left: 1%; 
+    margin-top: 8px;
+}
+#crd-radio{
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+    background-color: #fff;
+    gap: 10em;
+    justify-content: space-between;
+}
+#crd-inputs{
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+}
+#crd-input{
+    width: 310px;
+    height: 31px;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+}
+#card-input{
+    height: 31px;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+}
+#card-input1{
+    height: 31px;
+    width: 160px;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+    background-image: url('../../Ressources/Images/canadaflag.PNG');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+

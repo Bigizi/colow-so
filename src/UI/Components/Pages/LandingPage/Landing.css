@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.container-1 {
+    display: grid;
+    place-items: center; 
+    /* position: absolute; */
+    width: 1350px;
+    height: 700px;
+    background: linear-gradient(140.63deg, #1F2549 16.09%, #254D69 114.44%);
+}
+.container-2 {
+    display: flex;
+    background-color: hsl(0, 40%, 98%);
+    border-radius: 20px;
+    margin-top: 60px;
+    position: absolute;
+    width: 1160px;
+    height: 680px;
+    filter: drop-shadow(50px 50px 99px rgba(34, 34, 34, 0.059));
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding: 0 2rem;
+    margin-top: 2%;
+    margin-left: 1%;
+    color: #4E4B7B;
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: hsl(0, 40%, 98%);
+    width: 1160px;
+    height: 100px;
+    border-radius: 1px;
+}
+.navigation .nav-links{
+    padding: o;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    text-decoration: none;
+    color: inherit;
+    margin-left: -7%;
+}
+.navigation li:hover{
+    background-color: rgb(241, 239, 239);
+    cursor: pointer;
+}
+.active{
+    border-radius: 10px;
+    width: 59px;
+    height: 22px;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 2px 6px #BDD4E3);
+}
+#logo {
+    height: 60px;
+    margin-left: 1%;
+}
+#p1{
+    font-size: 40px;
+    color: #1F2549;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-style: normal;
+}
+#btn {
+    width: 180px;
+    height: 50px;
+    color: rgb(9, 2, 51);
+    border-radius: 27px;
+    border-color: rgb(9, 2, 51);
+    font-weight: bold;
+    font-size: 15px;
+}
+#btn:hover{
+    cursor: pointer;
+}
+.left{
+    margin-top: 11%;
+    margin-left: 5%;
+}
+.right{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 6%;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.content {
+    display: flex; 
+    margin-left: 1%;
+    margin-top: 0%;
+    background-color: hsl(0, 40%, 98%);
+    width: 1160px;
+    height: 650px;
+    
+}
+.middle {
+    width: 1160px;
+    background-color: #FAFAFA;
+    margin-left: 47px;
+    margin-top: 100px;
+
+}
+#btn1 {
+    width: 180px;
+    height: 50px;
+    color: white;
+    border-radius: 27px;
+    border-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: -20%;
+}
+#img2{
+    width: 980px;
+    margin-left: 110px;
+    height: 500px;
+}
+.last {
+    width: 1210px;
+    background-color: #FAFAFA;
+    margin-left: 48px;
+}
+#operation {
+    display: flex;
+    margin-left: 10%;
+    background-color: #FAFAFA;
+    width: 1110px;
+}
+.apps{
+    display: flex;
+}
+#paiement {
+    color: #4E4B7B;
+    font-weight: 700;
+    justify-content: space-between;
+}
+h2{
+    color: #4E4B7B;
+}
+h3{
+    color: #4E4B7B;
+}
+#phone2{
+    margin-left: 18%;
+}
+h1{
+    margin-left: 34%;
+}
+#last-section{
+    color: #4E4B7B;
+    background-color: #FAFAFA;
+    width: 1140px;
+    margin-left: 80px;
+}
+#para{
+    font-style: normal;
+    font-weight: 20px;
+}
+#contact {
+    background: linear-gradient(135.14deg, rgba(103, 93, 139, 0) 0.25%, #dfebf3 100%);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#last-para{
+    color: #4E4B7B;  
+}
+
+.form1{
+    background-color: white;
+    display: flex;
+    gap: 6rem;
+    box-sizing: border-box;
+    border: 4px solid whitesmoke;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    width: 630px;
+    height: 200px;
+}
+.form2{
+    background-color: white;
+    margin-top: 15px;
+}
+#frm{
+    margin-left: 10px;
+}
+.address {
+    display: flex;
+    gap: 8rem;
+    margin-left: 16%;
+}
+.footer{
+    display: flex;
+}
+#frm-btn{
+    background: linear-gradient(140.63deg, #1F2549 16.09%, #254D69 114.44%);
+    border-radius: 10px;
+    color: white;
+    margin-left: 11px;
+    width: 150px;
+    border-style: none;
+}
+.input-field{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 1px solid #075e9c ;
+}
+.footer-para {
+    display: flex;
+    margin-left: 25%;
+    gap: 12rem;
+    color: #4E4B7B;
+}

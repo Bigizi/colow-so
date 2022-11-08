@@ -1,0 +1,18 @@
+.container-depot{
+    background-color: #FFFFFF;
+}
+.depot-top{
+    width: 1080px;
+    margin-left: 15px;
+}
+.depot-bottom{
+    width: 1080px;
+    margin-left: 15px;
+}
+#depot-img{
+    width: 960px;
+}
+#depot-para{
+    color: #4E4B7B;
+    font-size: 18px;
+}

@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.main {
+  justify-content: center;
+}
+.form-container{
+  display: flex;
+  background-color: lightgrey;
+  border-radius: 35px;
+  margin-top: 120px;
+  position: absolute;
+  gap: 12rem;
+  width: 1080px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(50px 50px 99px rgba(34, 34, 34, 0.059));
+  margin-left: 130px;
+  margin-top: 8px;
+  
+}
+#frm-inputs {
+    width: 358px;
+    height: 33px;
+    border-radius: 10px;
+    border-color: none;
+    border-style: none;
+}
+#frm-inputs1 {
+    width: 358px;
+    height: 33px;
+    border-radius: 10px;
+    border-color: none;
+    border-style: none;
+    background-image: url('../../Ressources/Images/canadaflag.PNG');
+    background-repeat: no-repeat;
+    align-items: center;
+}
+#inputs{
+    border-radius: 10px;
+    height: 33px;  
+    border-style: none;
+}
+#register-btn{
+    width: 358px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: #4E4B7B;
+    color: #fff;
+    border-top: none;
+    border-style: none;
+}
+#register-crd{
+    width: 450px;
+}
+#lnk{
+    margin-left: 7px;
+    margin-top: -10px;
+    color: #4E4B7B;
+    font-weight: bold;
+}

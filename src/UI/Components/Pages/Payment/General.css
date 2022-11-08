@@ -1,0 +1,47 @@
+
+.general-container{
+    width: 1080px;
+    background-color: #E8E8E8;
+}
+.requis {
+    display: flex;
+}
+h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4E4B7B;
+}
+.paragraph-p {
+    display: flex;
+    margin-left: 20px;
+}
+#my-para{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.last-para-container {
+    display: flex;
+    margin-left: 15px;
+
+}
+#paragraphs{
+    margin-top: -16px;
+}
+#pay-p{
+    color: #4E4B7B;
+}
+#info{
+    margin-left: 18px;
+}
+.requis {
+    margin-left: 20px;
+}
+#picture1{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#premier{
+    margin-left: 20px;
+}

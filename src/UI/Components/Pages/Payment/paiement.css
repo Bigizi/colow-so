@@ -1,0 +1,35 @@
+.paiement-container {
+    background-color: #FFFFFF;
+    width: 1080px;
+}
+#paragraph1{
+    border-radius: 10px;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 2px 6px #BDD4E3);
+    width: fit-content;
+    color: #4E4B7B;
+}
+.screenshot{
+    width: 1080px;
+    margin-left: 15px;
+}
+h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4E4B7B;
+}
+h5{
+    color: #4E4B7B; 
+    font-size: 22px;
+}
+.paie-top{
+    margin-left: 15px;
+}
+#clt{
+    width: 780px;
+}
+#all-screen{
+    width: 930px;
+}
